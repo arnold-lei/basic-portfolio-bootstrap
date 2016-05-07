@@ -127,9 +127,41 @@ a {
   color:inherit;
 }
 
-.nav-collapse{
+.wrap{
+  min-height: 100%;
+  clear: both;
+  width:100%;
+  position: absolute;
+  }
 
-}
+  .container {
+  height:100%;
+  width:90%;
+  margin:0 auto;
+  position:relative;
+  overflow: auto;
+  z-index: 1;
+  padding:1em 0 10em 0;
+  }
+
+  .about-me {
+    width:90% ;
+    background-color: #fff;
+    padding:1em;
+    margin:0;
+    float:none;
+
+  }
+
+  .connect-me{
+    background-color: #fff;
+    width:90%;
+  /*  margin-right: 5%;
+    margin-top: 2%;*/
+    padding:2em;
+    float:none;
+    margin:1em 0 0 0;
+  }
 
 ul {
     list-style-type: none;
