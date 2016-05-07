@@ -1,0 +1,90 @@
+/*Text color: #506A85*/
+/*primary color: #1ABB9C*/
+
+
+
+
+body{
+  color:#506A85;
+}
+
+p{
+text-align: justify;
+line-height: 2em;
+}
+
+.jumbotron{
+  background-image: url("../img/arnold-china-purple.jpg");
+  height:550px;
+  padding:10% 0;
+  color:#fff;
+}
+
+.jumbo-contet{
+  margin: 0 auto;
+}
+
+nav{
+  padding:25px 0;
+}
+.navbar{
+  margin-bottom:0; 
+  display: block;
+}
+
+.navbar-default{
+  background-color:#fff;
+  border-color: #e7e7e7;
+  color:#506A85;
+}
+.navbar-header{
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand{
+  color:#506A85;
+}
+
+.section{
+  border-bottom: 1px solid #506A85;
+  text-align: center;
+  height:3em;
+  margin-bottom: 5em;
+}
+
+.section-header{
+  display:inline-block;
+  background-color: #fff;
+  padding:0 2em;
+}
+
+.quote{
+  width:30%;
+  display: block;
+  padding:0 1em;
+}
+
+.quote h1{
+  line-height: 1.5em;
+}
+
+.pull-quote span{
+  color:#1ABB9C;
+
+}
+
+.navbar-toggle, .btn-primary{
+  border:none;
+  border-radius: 0;
+  background-color: #1ABB9C;
+  border-bottom: 3px solid #506A85;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:#fff;
+}
+
+#profile-pic{
+  width:100%;
+  padding-top: 2em;
+}
