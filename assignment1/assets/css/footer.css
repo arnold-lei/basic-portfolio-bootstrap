@@ -1,0 +1,17 @@
+.footer{
+  background-color: #2F4052;
+  height:10em;
+  padding:5% 0 ;
+}
+
+.dark-bg{
+  background-color: #2F4052;
+  color:#fff;
+  padding: 5% 0;
+}
+
+.dark-bg h4{
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
