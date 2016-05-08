@@ -6,38 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap Test</title>
   <!--Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-override.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/gallery.css">
 
+  <!-- Font Awesome! -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+
+  </style>
 
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Arnold Lei</a>
-      </div>
+  <header class="header navbar navbar-default ">
+        <div class="header">
+            <ul class="nav navbar-nav">
+              <li><a href="#"><i class="fa fa-envelope-o icon" aria-hidden="true"></i> arnold.lei88@gmail.com</a></li>
+            </ul>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-github fa-lg icon" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square fa-lg icon" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-stack-overflow fa-lg icon" aria-hidden="true"></i></a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+  </header>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Portfolio</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-  </nav>
+    <nav data-spy="affix" data-offset-top="47" class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Arnold Lei</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Contact Me</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
       <div class="jumbotron">
         <div class="container">
           <div class="jumbo-content">
@@ -79,11 +101,32 @@
       <div class="section-header">
         <h1>Gallery </h1>
       </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="row">
+      <img class="gallery" src="assets/img/arnold-fluff-square.jpg">
+      <img class="gallery" src="assets/img/arnold-fluff-square.jpg">
+      <img class="gallery" src="assets/img/arnold-fluff-square.jpg">
     </div>
+    <div class="col-md-12">
+      <div class="row">
+        <img class="gallery" src="assets/img/arnold-fluff-square.jpg">
+        <img class="gallery" src="assets/img/arnold-fluff-square.jpg">
+        <img class="gallery" src="assets/img/arnold-fluff-square.jpg">
+      </div>
+    </div>
+    
+  </div>
   </div><!-- /.container-fluid -->
+  <footer>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/shrink.js"></script>
 </body>
 </html>

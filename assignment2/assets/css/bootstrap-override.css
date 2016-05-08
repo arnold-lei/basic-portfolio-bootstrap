@@ -32,35 +32,12 @@ p{
   margin: 0 auto;
 }
 
-nav{
-  padding:25px 0;
-}
-.navbar{
-  margin-bottom:0; 
-  display: block;
-}
 
-.navbar-default .navbar-toggle {
-  border-color: #17A78B;
-}
-
-.navbar-default{
-  background-color:#fff;
-  border-color: #e7e7e7;
-  color:#506A85;
-}
-.navbar-header{
-  font-size: 1.5em;
-}
-
-.navbar-default .navbar-brand{
-  color:#506A85;
-}
 
 .section{
   border-bottom: 1px solid #506A85;
   text-align: center;
-  height:3em;
+  height:4em;
   margin-bottom: 5em;
 }
 
@@ -83,17 +60,6 @@ nav{
 .pull-quote span{
   color:#1ABB9C;
 
-}
-
-.navbar-toggle, .btn-primary{
-  border:none;
-  border-radius: 0;
-  background-color: #1ABB9C;
-  border-bottom: 3px solid #17A78B;;
-}
-
-.navbar-default .navbar-toggle .icon-bar{
-  background-color:#fff;
 }
 
 #profile-pic{
