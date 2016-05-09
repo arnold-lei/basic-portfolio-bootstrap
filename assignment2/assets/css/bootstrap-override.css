@@ -21,11 +21,16 @@ p{
   line-height: 2em;
 }
 
+a, a:hover{
+  text-decoration: none;
+}
+
 .jumbotron{
   background-image: url("../img/arnold-china-purple.jpg");
   height:550px;
   padding:10% 0;
   color:#fff;
+  margin:0;
 }
 
 .jumbo-contet{
@@ -65,5 +70,11 @@ p{
 #profile-pic{
   width:100%;
   padding-top: 2em;
+}
+
+a.anchor{
+  display: block;
+  padding-top:5%;
+  display: hidden;
 }
 

@@ -80,3 +80,11 @@ nav.navbar{
  -webkit-transition: all 0.4s ease;
  transition: all 0.4s ease;
 }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color:#1ABB9C;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color:#1ABB9C;
+} 

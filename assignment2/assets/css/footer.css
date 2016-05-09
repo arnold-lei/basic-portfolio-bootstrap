@@ -13,3 +13,12 @@
   text-transform: uppercase;
 }
 
+.form-panel{
+  margin-bottom: 5em;
+}
+
+.footer-bottom{
+  background: #283645;
+  color: #707E8C;
+  
+}
