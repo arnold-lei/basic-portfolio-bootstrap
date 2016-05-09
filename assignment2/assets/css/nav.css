@@ -54,13 +54,15 @@ header {
 }
 
 .header{
-  padding:0 4%;
-  margin:0 auto;
   background-color: #F5F7FA;
   border:none;
   color: #506A85;
 /*  border-bottom: 1px solid #E6E9ED;*/
   border-radius: none;
+}
+
+.header-brand>ul>li{
+  text-align: left;
 }
 
 .icon{
@@ -76,6 +78,7 @@ header {
 .affix + .container-fluid {
     padding-top: 41px;
 }
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color:#1ABB9C;
   background-color: inherit;
@@ -90,32 +93,34 @@ nav.navbar{
  transition: all 0.4s ease;
 }
 
-.icon>.icon-panel>li>a{
-  color:#fff;
-  background-color:#F5F7FA;
-}
-
 #git-hub:hover{
+  transition: background-color 0.5s ease;
   background-color:#800080;
+  animation-delay: 3s;
 }
 
 #git-hub:hover .icon{
+  transition: background-color 0.5s ease;
   color:#fff;
 }
 
 #linkedin:hover{
+  transition: background-color 0.5s ease;
   background-color:#0077B5;
 }
 
 #linkedin:hover .icon{
+  transition: background-color 0.5s ease;
   color:#fff;
 }
 
 #stackoverflow:hover{
+  transition: background-color 0.5s ease;
   background-color:#F48024;
 }
 
 #stackoverflow:hover .icon{
+  transition: background-color 0.5s ease;
   color:#fff;
 }
 

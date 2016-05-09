@@ -78,3 +78,9 @@ a.anchor{
   display: hidden;
 }
 
+
+.btn-primary:hover{
+  transition: background-color 0.5s ease;
+  background-color: #17A78B;
+  border-color: #148E76
+}
